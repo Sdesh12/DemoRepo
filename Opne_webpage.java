@@ -27,6 +27,7 @@ public static void main(String[] args) throws InterruptedException, IOException 
 	//Maximize window
 	driver.manage().window().maximize();
 	
+	
 	Thread.sleep(2000);
     //enter username	
 	driver.findElement(By.xpath("(//input[@class='input_error form_input'])[1]")).sendKeys("standard_user");
